@@ -71,9 +71,7 @@ streamlit run app.py
 
 ## 💻 Demo
 
-![App Screenshot](https://user-images.githubusercontent.com/your-github-id/screenshot.png)
-
-> *Note: Replace the image above with an actual screenshot or GIF of your running app.*
+![App Screenshot](D:\LearnDocker\IPL_Winner_Predictor\assets\Screenshot 2025-06-24 114625.png)
 
 ---
 
