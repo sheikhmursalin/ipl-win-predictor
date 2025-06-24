@@ -71,7 +71,7 @@ streamlit run app.py
 
 ## 💻 Demo
 
-![App Screenshot](D:\LearnDocker\IPL_Winner_Predictor\assets\Screenshot 2025-06-24 114625.png)
+![App Screenshot](assets/demo.png)
 
 ---
 
