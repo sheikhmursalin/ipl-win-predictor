@@ -6,11 +6,11 @@ A machine learning web app built using **Streamlit** that predicts the winning p
 
 ## 🚀 Features
 
-- Select batting and bowling teams from official IPL franchises.
-- Choose the match city and input target score.
-- Real-time inputs for current score, overs completed, and wickets fallen.
-- Get instant probability of win/loss for the batting team.
-- Built using **Streamlit**, **Scikit-learn**, and **Pickle** pipeline.
+* Select batting and bowling teams from official IPL franchises.
+* Choose the match city and input target score.
+* Real-time inputs for current score, overs completed, and wickets fallen.
+* Get instant probability of win/loss for the batting team.
+* Built using **Streamlit**, **Scikit-learn**, and **Pickle** pipeline.
 
 ---
 
@@ -24,7 +24,7 @@ IPL_Winner_Predictor/
 │   └── model_training.ipynb  # Jupyter notebook used for training
 ├── requirements.txt      # Python dependencies
 ├── assets/
-│   └── Screenshot 2025-06-24 114625.png  # App screenshot
+│   └── demo.png          # App screenshot
 └── README.md             # You're here!
 ```
 
@@ -32,13 +32,14 @@ IPL_Winner_Predictor/
 
 ## 🧠 Model Training
 
-- The model uses features like:
-  - `batting_team`, `bowling_team`, `city`
-  - `runs_left`, `balls_left`, `wickets_left`
-  - `current run rate (CRR)`, `required run rate (RRR)`
-- Encoded categorical features with `OneHotEncoder`.
-- Trained using `LogisticRegression` for probability prediction.
-- Serialized using `pickle` to `pipe.pkl`.
+* The model uses features like:
+
+  * `batting_team`, `bowling_team`, `city`
+  * `runs_left`, `balls_left`, `wickets_left`
+  * `current run rate (CRR)`, `required run rate (RRR)`
+* Encoded categorical features with `OneHotEncoder`.
+* Trained using `LogisticRegression` for probability prediction.
+* Serialized using `pickle` to `pipe.pkl`.
 
 ---
 
@@ -128,15 +129,17 @@ Visit the live app at: [https://ipl-win-predictor-pl46.onrender.com](https://ipl
 4. Connect your GitHub repo.
 5. Set build & run commands:
 
-- **Build Command:**
+* **Build Command:**
+
   ```bash
   pip install -r requirements.txt
   ```
-- **Start Command:**
+* **Start Command:**
+
   ```bash
   streamlit run app.py --server.port=10000 --server.address=0.0.0.0
   ```
-- **Runtime:** Python 3
+* **Runtime:** Python 3
 
 6. Click Deploy. Done! 🚀
 
@@ -144,25 +147,25 @@ Visit the live app at: [https://ipl-win-predictor-pl46.onrender.com](https://ipl
 
 ## 💻 Demo
 
-![App Screenshot]\(assets/demo.png)
+![App Screenshot](assets/demo.png)
 
 ---
 
 ## 📨 Connect with Me
 
-- 🧑‍💻 **Sheikh Mursalin**
-- 🔗 [LinkedIn](https://www.linkedin.com/in/sheikh-mursalin-bb4bb9227/)
-- 👁️ [Twitter](https://x.com/Sheikh_Mursu)
-- 📧 [er.sheikh.mursalin@gmail.com](mailto\:er.sheikh.mursalin@gmail.com)
+* 🧑‍💻 **Sheikh Mursalin**
+* 🔗 [LinkedIn](https://www.linkedin.com/in/sheikh-mursalin-bb4bb9227/)
+* 👁️ [Twitter](https://x.com/Sheikh_Mursu)
+* 📧 [er.sheikh.mursalin@gmail.com](mailto:er.sheikh.mursalin@gmail.com)
 
 ---
 
 ## 📌 Future Improvements
 
-- Add more features like Duckworth-Lewis adjustments.
-- Improve model with advanced algorithms (Random Forest, XGBoost).
-- Add match history visualization.
-- Deploy on platforms like Streamlit Cloud or Hugging Face Spaces.
+* Add more features like Duckworth-Lewis adjustments.
+* Improve model with advanced algorithms (Random Forest, XGBoost).
+* Add match history visualization.
+* Deploy on platforms like Streamlit Cloud or Hugging Face Spaces.
 
 ---
 
@@ -173,4 +176,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 ### ⭐️ Give it a star if you like this project!
-
