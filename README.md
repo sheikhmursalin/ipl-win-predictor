@@ -24,7 +24,7 @@ IPL_Winner_Predictor/
 │   └── model_training.ipynb  # Jupyter notebook used for training
 ├── requirements.txt      # Python dependencies
 ├── assets/
-│   └── demo.png          # App screenshot
+│   └── Screenshot 2025-06-24 114625.png  # App screenshot
 └── README.md             # You're here!
 ```
 
@@ -112,9 +112,39 @@ CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0
 
 ---
 
+## 💻 Live Demo on Render
+
+Visit the live app at: [https://ipl-win-predictor-pl46.onrender.com](https://ipl-win-predictor-pl46.onrender.com)
+
+---
+
+## 📤 Deploy on Render (Free Hosting)
+
+### Step-by-step:
+
+1. Push your code to a public GitHub repository.
+2. Go to [https://render.com](https://render.com) and sign in.
+3. Click on **New Web Service**.
+4. Connect your GitHub repo.
+5. Set build & run commands:
+
+- **Build Command:**
+  ```bash
+  pip install -r requirements.txt
+  ```
+- **Start Command:**
+  ```bash
+  streamlit run app.py --server.port=10000 --server.address=0.0.0.0
+  ```
+- **Runtime:** Python 3
+
+6. Click Deploy. Done! 🚀
+
+---
+
 ## 💻 Demo
 
-![App Screenshot](assets/demo.png)
+![App Screenshot]\(assets/demo.png)
 
 ---
 
@@ -136,7 +166,7 @@ CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0
 
 ---
 
-## 📝 License
+## 📍 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
